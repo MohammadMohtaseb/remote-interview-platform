@@ -44,7 +44,7 @@ function InterviewScheduleUI() {
     title: "",
     description: "",
     date: new Date(),
-    time: "09:00",
+    time: "00:00",
     candidateId: "",
     interviewerIds: user?.id ? [user.id] : [],
   });
@@ -95,7 +95,7 @@ function InterviewScheduleUI() {
         title: "",
         description: "",
         date: new Date(),
-        time: "09:00",
+        time: "00:00",
         candidateId: "",
         interviewerIds: user?.id ? [user.id] : [],
       });
